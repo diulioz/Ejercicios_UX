@@ -1,8 +1,9 @@
-function retirar(evt){
+function suma(evt){
     evt.preventDefault();
-    let a;
+    let a,b,c,d;
     r1=0;
     r2=0;
+    r3=0;
     let cad= "";
     let cad_2="";
     let cad_3="";
@@ -10,9 +11,15 @@ function retirar(evt){
     let cad_5="";
     let cadf="";
     a=parseInt(document.getElementById("txtn1").value);
+    b=parseInt(document.getElementById("txtn2").value);
+    c=parseInt(document.getElementById("txtn3").value);
+    d=parseInt(document.getElementById("txtn4").value);
 
+
+    d=d%60;
     if(a>50000){
-            r2=a%50000;
+            r3=a
+            r2=a%60;
             a=a-r2;
             r1=a/50000
             cad=r1 +" Billetes de $50000 \n";
