@@ -1,0 +1,37 @@
+nav a:hover{ /* cuando se pone el mause por encima de la etiqueta */
+    background-color: rgb(187, 167, 152);
+}
+
+.link_activo{ /* se aplica a las etiquetas clasificadas en esta clase*/
+    text-decoration: underline;
+}
+
+h1{
+    color: white; /* color de la letra*/
+    background-color: rgb(100, 51, 44); /* color del fondo*/
+    text-align: center; /* alineación */
+}
+
+nav a{ /* reune los hipervinculos en una barra de navegación */
+    display: inline-block;
+    width: 150px;
+    background-color: rgb(216, 193, 177);
+    color: black;
+    border: 2px rgb(87, 38, 38) solid; /* Grosor, Color Estilo_ solid, dotted, inset, double ... */
+    text-align: center;
+    text-decoration: none; /* quitarle la linea a los hipervinculos*/
+    border-radius: 8px 0px 8px 0px ; /* hacer el borde del boton redondito, entre más grande el # más redondo. parametros: esquina sup-izq, sup-der, inf-der, inf-izq*/
+    padding: 15px; /* margen interna*/
+    margin: 15px; /* margen externa*/
+    box-shadow: 4px 4px 9px black; /* sombreado, parametros: extensión der, extension abajo, desenfoque, color*/
+    font-size: 18px; /* tamaño de la letra*/
+
+}
+
+body{
+    font-family: "Tahoma"; /* fuente de la letra*/
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    align-items: center;
+    justify-content: center;
+}
