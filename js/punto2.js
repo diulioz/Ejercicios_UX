@@ -1,4 +1,5 @@
 function calcularp2(){
+    evt.preventDefault();
     let h=parseInt(document.getElementById("txtn1").value);
     let m=parseInt(document.getElementById("txtn2").value);
     let s=parseInt(document.getElementById("txtn3").value); 
