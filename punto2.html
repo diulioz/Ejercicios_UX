@@ -16,6 +16,17 @@
         <a href="Punto3.html">Punto3</a>
         <a href="index.html">Regresar</a>
     </nav> <!--nav-->
-    
+
+    <form onsubmit="calcular(event)">
+        <label>Digite las horas</label>
+        <input type="number" name="txtn1" id="txtn1" required min="0">
+        <label>Digite los minutos</label>
+        <input type="number" name="txtn2" id="txtn2" required min="0">
+        <label>Digite los segundos</label>
+        <input type="number" name="txtn3" id="txtn3" required min="0">
+
+        <input type="submit" value="Calcular" > 
+    </form>
+    <script src="./js/punto2.js"></script>
 </body>
 </html>

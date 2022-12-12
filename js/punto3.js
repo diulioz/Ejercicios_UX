@@ -1,9 +1,9 @@
 function suma(evt){
     evt.preventDefault();
     let h,m,s,su,aux, auxm, auxh, auxs;
-    r_horas=0;
-    r_minutos=0;
-    r_seg=0;
+    let r_horas=0;
+    let r_minutos=0;
+    let r_seg=0;
     let cadH= "";
     let cadM= "";
     let cadS= "";
