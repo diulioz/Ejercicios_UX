@@ -1,4 +1,4 @@
-function calcular(){
+function calcular(evt){
     evt.preventDefault();
 
     let h, m, s,horas, grados, grados2, minutos, minutos2, segundos;
